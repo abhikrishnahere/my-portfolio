@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a cybersecurity researcher and bug bounty hunter">
+
+    <title>Abhi | Cybersecurity Researcher</title>
+
+    <!-- Link to our separate CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">&lt;Abhi /&gt;</a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#bounties">Bounties</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-btn">Hire Me</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========== HERO SECTION ========== -->
+        <section class="hero">
+            <div class="container hero-grid">
+
+                <!-- Left side: name, intro, and button -->
+                <div class="hero-text-content">
+                    <p class="hero-tag">Cybersecurity Researcher & Bug Bounty Hunter</p>
+                    <h1 class="hero-name">Abhi</h1>
+                    <p class="hero-intro">
+                        I hunt security bugs in web apps, APIs, and cloud systems — then report them responsibly. Always learning, always securing.
+                    </p>
+                    <a href="#contact" class="btn btn-contact">Contact Me</a>
+                </div>
+
+                <!-- Right side: circular profile picture -->
+                <div class="hero-image-wrapper">
+                    <div class="profile-circle">
+                        <img src="images/profile.png" alt="Abhi">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I hunt security bugs in web apps, APIs, and cloud systems — then report them responsibly. Always learning, always securing.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">120+</span>
+                            <span class="stat-label">Bugs Reported</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15</span>
+                            <span class="stat-label">CVEs Assigned</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">$85K+</span>
+                            <span class="stat-label">Bounty Earnings</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Hall of Fames</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS SECTION ========== -->
+        <section id="skills" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <h3>Web Security</h3>
+                        <p>XSS, SQLi, SSRF, IDOR, CSRF, Authentication bypass</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>API Testing</h3>
+                        <p>REST, GraphQL, JWT attacks, rate limiting bypass</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Cloud Security</h3>
+                        <p>AWS, Azure misconfigs, S3 buckets, IAM privilege escalation</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Tools</h3>
+                        <p>Burp Suite, Nuclei, ffuf, SQLMap, Metasploit, Wireshark</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Languages</h3>
+                        <p>Python, JavaScript, Bash, Go for automation and PoCs</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Certifications</h3>
+                        <p>OSCP, eWPT, BSCP (Burp Suite Certified Practitioner)</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== RESEARCH / PROJECTS SECTION ========== -->
+        <section id="research" class="section">
+            <div class="container">
+                <h2 class="section-title">Security Research</h2>
+                <div class="project-list">
+
+                    <article class="project-card">
+                        <span class="project-tag">Critical</span>
+                        <h3>Remote Code Execution in Popular CMS</h3>
+                        <p>
+                            Discovered an unauthenticated RCE via file upload bypass.
+                            Reported responsibly and received CVE-2025-12345.
+                        </p>
+                        <a href="#" class="project-link">Read Advisory →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <span class="project-tag">High</span>
+                        <h3>OAuth Token Leak in SaaS Platform</h3>
+                        <p>
+                            Found an open redirect chain leading to OAuth token theft
+                            affecting 2M+ users. Fixed within 48 hours of report.
+                        </p>
+                        <a href="#" class="project-link">Read Write-up →</a>
+                    </article>
+
+                    <article class="project-card">
+                        <span class="project-tag">Medium</span>
+                        <h3>Subdomain Takeover Research</h3>
+                        <p>
+                            Published a methodology for detecting dangling DNS records
+                            across cloud providers. Used by 500+ researchers.
+                        </p>
+                        <a href="#" class="project-link">View on GitHub →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== BUG BOUNTY SECTION ========== -->
+        <section id="bounties" class="section section-dark">
+            <div class="container">
+                <h2 class="section-title">Bug Bounty Highlights</h2>
+                <div class="bounty-grid">
+
+                    <div class="bounty-card">
+                        <h3>HackerOne</h3>
+                        <p class="bounty-rank">Top 500 Researcher</p>
+                        <ul>
+                            <li>45 valid reports</li>
+                            <li>3 Critical findings</li>
+                            <li>Hall of Fame: 4 companies</li>
+                        </ul>
+                    </div>
+
+                    <div class="bounty-card">
+                        <h3>Bugcrowd</h3>
+                        <p class="bounty-rank">P1 Hunter</p>
+                        <ul>
+                            <li>30 valid submissions</li>
+                            <li>$40,000+ earned</li>
+                            <li>Private program access</li>
+                        </ul>
+                    </div>
+
+                    <div class="bounty-card">
+                        <h3>Intigriti</h3>
+                        <p class="bounty-rank">Active Researcher</p>
+                        <ul>
+                            <li>20+ reports accepted</li>
+                            <li>Focus on EU targets</li>
+                            <li>2 Hall of Fame listings</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT SECTION ========== -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="contact-intro">
+                    Open to collaboration, responsible disclosure inquiries, and security consulting.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:abhi@gmail.com" class="contact-card">
+                        <span class="contact-label">Email</span>
+                        <span>abhi@gmail.com</span>
+                    </a>
+                    <a href="https://github.com" class="contact-card" target="_blank">
+                        <span class="contact-label">GitHub</span>
+                        <span>github.com/alexmorgan</span>
+                    </a>
+                    <a href="https://twitter.com" class="contact-card" target="_blank">
+                        <span class="contact-label">Twitter / X</span>
+                        <span>@alexmorgan_sec</span>
+                    </a>
+                    <a href="https://hackerone.com" class="contact-card" target="_blank">
+                        <span class="contact-label">HackerOne</span>
+                        <span>hackerone.com/alexmorgan</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Abhi. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
